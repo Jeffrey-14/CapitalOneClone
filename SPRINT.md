@@ -23,8 +23,8 @@ Unchecked = not complete. Add `IN PROGRESS` or `BLOCKED: reason` beside an activ
 
 ### S0 — Baseline and reproducible setup
 - [x] S0.1 Inspect the existing Xcode project, entry point, screens, targets, schemes, dependencies, tests, and Git root/remote.
-- [ ] S0.2 Record macOS, Xcode, Swift language mode, deployment target, and available simulator destinations. **IN PROGRESS — pending review.**
-- [ ] S0.3 Run and record a baseline simulator build; document blockers if it fails.
+- [x] S0.2 Record macOS, Xcode, Swift language mode, deployment target, and available simulator destinations.
+- [ ] S0.3 Run and record a baseline simulator build; document blockers if it fails. **IN PROGRESS — pending review.**
 - [ ] S0.4 Create README.md, AGENTS.md, docs/BUILD_JOURNAL.md, docs/ARCHITECTURE.md, and retain this SPRINT.md at the repository root.
 - [ ] S0.5 Confirm the banking repository and Xcode Cloud connection; protect credentials and exclude machine-specific files.
 Acceptance: A new contributor can identify prerequisites, open the project, and repeat the baseline build from the documentation.
